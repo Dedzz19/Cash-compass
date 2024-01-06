@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-grid{
+  display: grid;
+  grid-template-columns: 20% 50% 20%;
+  grid-template-rows: 100%;
+}
+
+@font-face {
+  font-family: "Baguede" ;
+  src: url(./fonts/BaguedeFree/BaguedeFree-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Modelica';
+  src: url(./fonts/Modelica/BwModelica-Regular.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Modelica';
+  src: url(./fonts/Modelica/BwModelica-ExtraBold.otf) format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+.Modelica{
+  font-family: Modelica, sans-serif;
+}
+
+.Baguede{
+  font-family: Baguede, sans-serif;
+}
+
+@media screen and (min-width: 650px) {
+  .bg-name{
+    background-image: url('./image/Desktop\ -\ 3\ opac.png') ;
+    background-position: center;
+    background-size: cover;
+  }
+}
